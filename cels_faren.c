@@ -1,15 +1,15 @@
 #include <stdio.h>
 
-/* печать таблицы температур по Цельсию и Фаренгейту для fahr = 0, 20, ..., 300 */
+/* print the Celsius and Fahrenheit temperature table for fahr = 0, 20, ..., 300 */
 
 main()
 {
 	int fahr, celsius;
 	int lower, upper, step;
 
-	lower = 0; /* нижняя граница таблицы */
-	upper = 300; /* верхняя граница таблицы */
-	step = 20; /* шаг */
+	lower = 0; /* table bottom */
+	upper = 300; /* table top */
+	step = 20; /* step */
 
 	fahr = lower;
 	while (fahr <= upper)
