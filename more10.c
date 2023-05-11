@@ -1,9 +1,9 @@
 #include <stdio.h>
-#define MAXLINE 1000 // максимальный размер вводимой строки
+#define MAXLINE 1000 // max size of the input string
 
 int getlin(char line[], int MAX);
 
-/*печать строки длинной больше 10 символов*/
+/*print string with more then 10 characters*/
 int main()
 {
     int len; // длина текущей строки
@@ -14,7 +14,7 @@ int main()
     return 0;
 }
 
-/*getline читает строку в s, возвращает длину*/
+/*getline read string in s, returns length*/
 int getlin(char s[], int lim)
 {
     int c, i;

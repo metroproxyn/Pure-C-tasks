@@ -1,7 +1,7 @@
-/* 1.19 Напишите функцию reverse (s), размещающую символы
-в строке s в обратном порядке.
-Примените ее при написании программы, которая каждую
-вводимую строку располагает в обратном порядке. */
+/* 1.19 Write a reverse (s) function that puts the characters
+in the string s in reverse order.
+Use it to write a program that puts each
+input string is placed in reverse order. */
 #include <stdio.h>
 #define MAXLINE 1000
 
